@@ -8,7 +8,7 @@ export const EDUCATIONS = [
   {
     year: "2022",
     course: "Bachelor of Engineering",
-    institute: "Hasmukh Goswami Collage of Engineering",
+    institute: "GEC Inst.",
     specialization: "Information Technology",
     grade: "9.00 CGPA"
   }
