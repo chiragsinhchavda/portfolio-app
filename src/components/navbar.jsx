@@ -16,13 +16,13 @@ const Navbar = () => {
                     <FaLinkedin className="cursor-pointer text-sky-500" />
                 </a>
                 <a href="https://github.com/chiragsinhchavda" className="cursor-pointer" target="_blank">
-                    <FaGithub />
+                    <FaGithub className="cursor-pointer text-black" />
                 </a>
                 <a href="mailto:chiragsinhchavda01@gmail.com" className="cursor-pointer" target="_blank">
-                    <BiLogoGmail />
+                    <BiLogoGmail className="cursor-pointer text-black" />
                 </a>
                 <a href="tel:+916355455648" className="cursor-pointer" target="_blank">
-                    <IoCall />
+                    <IoCall className="cursor-pointer text-black" />
                 </a>
             </div>
         </nav>

@@ -13,15 +13,15 @@ const container = (delay) => ({
 
 const Home = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4 lb:mb-35">
+        <div className="border-b border-white-900 pb-4 lb:mb-35">
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
-                        <motion.h1 variants={container(1.5)} initial="hidden" animate="visible" className="pb-10 text-5xl font-thin tracking-tight lg:mt-10 lg:text-6xl">
+                        <motion.h1 variants={container(1.5)} initial="hidden" animate="visible" className="pb-10 text-5xl text-black tracking-tight lg:mt-10 lg:text-6xl">
                             Chirag Chavda
                         </motion.h1>
-                        <motion.span variants={container(1.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent">Full Stack Developer</motion.span>
-                        <motion.p variants={container(1.5)} initial="hidden" animate="visible" className="my-1 max-w-xl py-5 font-light tracking-tight">{HOME_CONTENT}</motion.p>
+                        <motion.span variants={container(1.5)} initial="hidden" animate="visible" className="bg-radial-[at_25%_25%] from-black to-zink-900 to-75% bg-clip-text text-2xl font-dark tracking-tight text-transparent">Full Stack Developer</motion.span>
+                        <motion.p variants={container(1.5)} initial="hidden" animate="visible" className="text-black my-1 max-w-xl py-5 tracking-tight">{HOME_CONTENT}</motion.p>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">

@@ -21,25 +21,25 @@ const iconAnimation = (duration) => ({
 
 const Technology = () => {
     return (
-        <div className="border-b border-neutral-800 pb-24">
-            <motion.h2 whileInView={{ y: 0, opacity: 1 }} initial={{ y: -100, opacity: 0 }} transition={{ duration: 1 }} className="my-20 text-center text-4xl">Technologies</motion.h2>
+        <div className="border-b border-white-800 pb-24">
+            <motion.h2 whileInView={{ y: 0, opacity: 1 }} initial={{ y: -100, opacity: 0 }} transition={{ duration: 1 }} className="my-20 text-center text-4xl text-black">Technologies</motion.h2>
             <motion.div whileInView={{ x: 0, opacity: 1 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1 }} className="flex flex-wrap items-center justify-center gap-4">
-                <motion.div variants={iconAnimation(2.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+                <motion.div variants={iconAnimation(2.5)} initial="initial" animate="animate" className="rounded-2xl p-2">
                     <IoLogoJavascript className="text-7xl text-yellow-400"/>
                 </motion.div>
-                <motion.div variants={iconAnimation(2)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+                <motion.div variants={iconAnimation(2)} initial="initial" animate="animate" className="rounded-2xl p-2">
                     <TbBrandAngularFilled className="text-7xl text-orange-700"/>
                 </motion.div>
-                <motion.div variants={iconAnimation(2.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+                <motion.div variants={iconAnimation(2.5)} initial="initial" animate="animate" className="rounded-2xl p-2">
                     <RiReactjsLine className="text-7xl text-cyan-400"/>
                 </motion.div>
-                <motion.div variants={iconAnimation(2.)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+                <motion.div variants={iconAnimation(2.)} initial="initial" animate="animate" className="rounded-2xl p-2">
                     <FaNode className="text-7xl text-green-500"/>
                 </motion.div>
-                <motion.div variants={iconAnimation(2.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+                <motion.div variants={iconAnimation(2.5)} initial="initial" animate="animate" className="rounded-2xl p-2">
                     <SiExpress className="text-7xl"/>
                 </motion.div>
-                <motion.div variants={iconAnimation(2)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+                <motion.div variants={iconAnimation(2)} initial="initial" animate="animate" className="rounded-2xl p-2">
                     <TbBrandMongodb className="text-7xl text-green-500"/>
                 </motion.div>
             </motion.div>

@@ -4,8 +4,8 @@ import { motion } from "motion/react"
 
 const About = () => {
     return (
-        <div className="border-b border-nuetral-900 pb-4">
-            <motion.h2 whileInView={{ y: 0, opacity: 1 }} initial={{ y: -100, opacity: 0 }} transition={{ duration: 1 }} className="my-20 text-center text-4xl">
+        <div className="border-b border-white-900 pb-4">
+            <motion.h2 whileInView={{ y: 0, opacity: 1 }} initial={{ y: -100, opacity: 0 }} transition={{ duration: 1 }} className="my-20 text-center text-4xl text-black">
                 About 
                 <span className="text-neutral-500"> Me</span>
             </motion.h2>
@@ -17,7 +17,7 @@ const About = () => {
                 </motion.div>
                 <div className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start">
-                        <motion.p whileInView={{ x: 0, opacity: 1 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1, delay: 0.3 }} className="my-2 max-w-xl py-6">{ABOUT_TEXT}</motion.p>
+                        <motion.p whileInView={{ x: 0, opacity: 1 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1, delay: 0.3 }} className="my-2 max-w-xl py-6 text-black">{ABOUT_TEXT}</motion.p>
                     </div>
                 </div>
             </div>
