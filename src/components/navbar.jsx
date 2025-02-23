@@ -2,9 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { IoCall } from "react-icons/io5";
-import logo from "../assets/logo.png"
 import logo1 from "../assets/logo1.png"
-import logo2 from "../assets/logo2.png"
 
 
 const Navbar = () => {
