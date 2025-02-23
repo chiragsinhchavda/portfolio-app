@@ -1,5 +1,7 @@
 # React + Vite
 
+This is simple portfolio app using React, Tailwindcss and motion js library for animation.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
